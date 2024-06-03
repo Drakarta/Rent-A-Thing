@@ -10,9 +10,14 @@ module ant.rentathing {
     requires org.kordamp.ikonli.javafx;
     requires org.kordamp.bootstrapfx.core;
     requires eu.hansolo.tilesfx;
+    requires bcrypt;
+    requires com.fasterxml.jackson.databind;
+    requires java.desktop;
 
     opens ant.rentathing to javafx.fxml;
     opens ant.rentathing.Controllers to javafx.fxml;
+    opens ant.rentathing.Classes to com.fasterxml.jackson.databind;
     exports ant.rentathing;
     exports ant.rentathing.Controllers;
+    exports ant.rentathing.Classes;
 }

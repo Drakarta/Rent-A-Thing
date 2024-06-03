@@ -1,11 +1,16 @@
 package ant.rentathing;
 
+import ant.rentathing.Classes.User;
+import ant.rentathing.Classes.UserList;
+import ant.rentathing.Util.JsonHandler;
+import com.fasterxml.jackson.core.type.TypeReference;
 import javafx.application.Application;
 import javafx.fxml.FXMLLoader;
 import javafx.scene.Scene;
 import javafx.stage.Stage;
 
 import java.io.IOException;
+import java.util.ArrayList;
 import java.util.Objects;
 
 public class Main extends Application {
@@ -18,7 +23,7 @@ public class Main extends Application {
         stage.show();
     }
 
-    public static void main(String[] args) {
-        launch();
+    public static void main(String[] args) throws IOException {
+        launch(args);
     }
 }

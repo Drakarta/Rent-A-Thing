@@ -1,0 +1,11 @@
+.layout {
+    -fx-alignment: center;
+    -fx-pref-width: 320px;
+    -fx-pref-height: 240px;
+    -fx-spacing: 10px;
+}
+
+.layout TextField {
+    -fx-max-width: 200px;
+    -fx-max-height: 25px;
+}

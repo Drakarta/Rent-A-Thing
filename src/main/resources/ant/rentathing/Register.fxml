@@ -7,12 +7,12 @@
 <?import javafx.scene.control.Button?>
 <Pane xmlns:fx="http://javafx.com/fxml"
       fx:id="rootLayout"
-      fx:controller="ant.rentathing.Controllers.LoginController">
+      fx:controller="ant.rentathing.Controllers.RegisterController">
     <VBox styleClass="layout">
-        <Label text="Login"/>
+        <Label text="Register"/>
         <TextField fx:id="usernameField" promptText="Username"/>
         <TextField fx:id="passwordField" promptText="Password"/>
         <Button text="Submit" onAction="#handleSubmitButton" />
-        <Button text="Register" onAction="#handleRegisterButton" />
+        <Button text="Registreer" onAction="#handleLoginButton" />
     </VBox>
 </Pane>
