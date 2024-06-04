@@ -10,18 +10,18 @@ import javafx.event.ActionEvent;
 import javafx.scene.Node;
 import javafx.stage.Stage;
 
-public class MenuController implements Controllers {
+public class MenuController extends BaseController {
     public User user;
     @FXML
     private Pane rootLayout;
     @FXML
-    private Label test;
+    private Label account;
 
     @Override
     @FXML
     public void initialize() {
         Loader.LoadCss("login-register.css", rootLayout);
-        test.setText(user.getUsername());
+        account.setText(user.getUsername());
     }
 
     public void handleOverviewButton() {

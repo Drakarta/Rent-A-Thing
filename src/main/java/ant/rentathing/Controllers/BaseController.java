@@ -2,9 +2,8 @@ package ant.rentathing.Controllers;
 
 import javafx.fxml.FXML;
 
-public interface Controllers {
+public abstract class BaseController {
     @FXML
-    default void initialize() {
+    public void initialize() {}
 
-    };
 }

@@ -20,4 +20,6 @@ module ant.rentathing {
     exports ant.rentathing;
     exports ant.rentathing.Controllers;
     exports ant.rentathing.Classes;
+    exports ant.rentathing.Classes.Products;
+    opens ant.rentathing.Classes.Products to com.fasterxml.jackson.databind;
 }

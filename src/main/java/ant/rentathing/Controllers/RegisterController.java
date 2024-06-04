@@ -9,7 +9,7 @@ import javafx.scene.layout.Pane;
 
 import java.io.IOException;
 
-public class RegisterController implements Controllers {
+public class RegisterController extends BaseController {
     @FXML
     private Pane rootLayout;
     @FXML

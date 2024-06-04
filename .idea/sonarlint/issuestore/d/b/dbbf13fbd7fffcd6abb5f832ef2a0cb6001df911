@@ -1,0 +1,6 @@
+
+•	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(ÃîîÚJ$ffcb794a-6983-4628-bdee-99e34ef0c21b
+Œ
+java:S1104"PMake user a static final constant or non-public and provide accessors if needed.(‹³¤²J$c4453aee-c6a7-410d-b4d1-a7f60283a3a1
+k	java:S106"+Replace this use of System.out by a logger.(Æÿß½üÿÿÿÿJ$efc4a133-49a6-4116-8153-4871ef8ef6cc
+k	java:S106 "+Replace this use of System.out by a logger.(Æÿß½üÿÿÿÿJ$4d4896f1-7a2b-4dca-b820-bb58d1958393

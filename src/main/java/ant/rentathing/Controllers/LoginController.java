@@ -12,7 +12,7 @@ import javafx.scene.layout.Pane;
 
 import java.io.IOException;
 
-public class LoginController implements Controllers {
+public class LoginController extends BaseController {
     @FXML
     private Pane rootLayout;
     @FXML

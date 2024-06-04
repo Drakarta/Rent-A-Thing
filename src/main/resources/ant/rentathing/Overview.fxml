@@ -2,15 +2,12 @@
 
 <?import javafx.scene.layout.VBox?>
 <?import javafx.scene.layout.Pane?>
-<?import javafx.scene.control.Button?>
 <?import javafx.scene.control.Label?>
 
 <Pane xmlns:fx="http://javafx.com/fxml"
       fx:id="rootLayout">
     <VBox styleClass="Layout">
         <Label fx:id="account"/>
-        <Button text="Overview" onAction="#handleOverviewButton"/>
-        <Button text="Manage" onAction="#handleManageButton"/>
-        <Button text="LogOut" onAction="#handleLogOutButton"/>
+
     </VBox>
 </Pane>

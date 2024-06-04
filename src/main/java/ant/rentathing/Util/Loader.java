@@ -1,6 +1,6 @@
 package ant.rentathing.Util;
 
-import ant.rentathing.Controllers.MenuController;
+import ant.rentathing.Controllers.BaseController;
 import javafx.fxml.FXMLLoader;
 import javafx.scene.Parent;
 import javafx.scene.Scene;
@@ -23,7 +23,19 @@ public class Loader {
         }
     }
 
-    public static void NewWindow(String fxml, MenuController controller, String title, int width, int height) throws IOException {
+    public static void LoadFxml(Pane rootLayout, String fxml, BaseController controller) {
+        try {
+            FXMLLoader loader = new FXMLLoader();
+            loader.setLocation(Loader.class.getResource("/ant/rentathing/" + fxml));
+            loader.setController(controller);
+            Parent newContent = loader.load();
+            rootLayout.getChildren().setAll(newContent);
+        } catch (Exception e) {
+            e.printStackTrace();
+        }
+    }
+
+    public static void NewWindow(String fxml, BaseController controller, String title, int width, int height) throws IOException {
         FXMLLoader loader = new FXMLLoader();
         loader.setLocation(Loader.class.getResource("/ant/rentathing/" + fxml));
         loader.setController(controller);
