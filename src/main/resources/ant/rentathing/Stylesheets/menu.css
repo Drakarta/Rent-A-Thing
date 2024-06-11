@@ -1,0 +1,29 @@
+.menu-layout {
+    -fx-alignment: center;
+    -fx-pref-width: 640px;
+    -fx-pref-height: 400px;
+    -fx-spacing: 5px;
+}
+
+.top-bar {
+    -fx-pref-width: 620px;
+    -fx-alignment: center;
+    -fx-padding: 10px;
+}
+
+.top-bar .left {
+    -fx-pref-width: 310px;
+    -fx-alignment: center-left;
+    -fx-padding: 0 0 0 20px;
+}
+
+.top-bar .right {
+    -fx-pref-width: 310px;
+    -fx-alignment: center-right;
+}
+
+.title-bar {
+    -fx-padding: 46px 0 0 0;
+    -fx-pref-width: 640px;
+    -fx-alignment: center;
+}

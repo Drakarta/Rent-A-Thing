@@ -6,13 +6,14 @@
 <?import javafx.scene.control.Label?>
 <?import javafx.scene.control.Button?>
 
+<?import javafx.scene.control.PasswordField?>
 <Pane xmlns:fx="http://javafx.com/fxml"
       fx:id="rootLayout"
-      fx:controller="ant.rentathing.Controllers.LoginController">
-    <VBox styleClass="layout">
+      fx:controller="ant.rentathing.controllers.LoginController">
+    <VBox styleClass="login-register-layout">
         <Label text="Login"/>
         <TextField fx:id="usernameField" promptText="Username"/>
-        <TextField fx:id="passwordField" promptText="Password"/>
+        <PasswordField fx:id="passwordField" promptText="Password"/>
         <Button text="Submit" onAction="#handleSubmitButton" />
         <Button text="Register" onAction="#handleRegisterButton" />
     </VBox>

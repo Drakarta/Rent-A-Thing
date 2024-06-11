@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<Pane fx:id="rootLayout" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/17.0.2-ea">
+    <HBox styleClass="bot-bar-1">
+        <HBox styleClass="left">
+            <Label fx:id="totalPrice" />
+        </HBox>
+        <HBox styleClass="right" fx:id="botBarRight" />
+    </HBox>
+    <VBox styleClass="detail-box">
+        <VBox fx:id="detailList" />
+    </VBox>
+    <HBox styleClass="top-bar-1">
+        <HBox styleClass="left">
+            <Button text="Close" onAction="#handleCloseButton" />
+        </HBox>
+        <HBox styleClass="right">
+            <Label fx:id="account" />
+        </HBox>
+    </HBox>
+</Pane>

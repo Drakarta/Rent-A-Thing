@@ -1,11 +1,16 @@
-.layout {
+.login-register-layout {
     -fx-alignment: center;
     -fx-pref-width: 320px;
     -fx-pref-height: 240px;
-    -fx-spacing: 10px;
+    -fx-spacing: 5px;
 }
 
-.layout TextField {
+.login-register-layout TextField  {
+    -fx-max-width: 200px;
+    -fx-max-height: 25px;
+}
+
+.login-register-layout PasswordField {
     -fx-max-width: 200px;
     -fx-max-height: 25px;
 }

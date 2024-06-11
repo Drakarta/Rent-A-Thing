@@ -1,0 +1,70 @@
+.top-bar-1 {
+    -fx-pref-width: 460px;
+    -fx-alignment: center;
+    -fx-padding: 10px;
+}
+
+.top-bar-1 .left {
+    -fx-pref-width: 230px;
+    -fx-alignment: center-left;
+    -fx-padding: 0 0 0 20px;
+}
+
+.top-bar-1 .right {
+    -fx-pref-width: 230px;
+    -fx-alignment: center-right;
+}
+
+.title-bar {
+    -fx-padding: 46px 0 0 0;
+    -fx-pref-width: 480px;
+    -fx-alignment: center;
+}
+
+.detail-box {
+    -fx-padding: 60px;
+    -fx-alignment: center;
+    -fx-pref-width: 480px;
+    -fx-pref-height: 300px;
+}
+
+#detailList {
+    -fx-alignment: top-center;
+    -fx-pref-width: 400px;
+    -fx-pref-height: 300px;
+    -fx-spacing: 5px;
+}
+
+#detailList TextField {
+    -fx-pref-width: 115px;
+}
+
+#detailList HBox {
+    -fx-alignment: center-left;
+}
+
+#detailList .numeric-text-field {
+    -fx-pref-width: 50px;
+}
+
+#detailList .insurance-checkbox:disabled {
+    -fx-text-fill: black;
+}
+
+.bot-bar-1 {
+    -fx-padding: 310px 10px 10px 10px;
+    -fx-pref-width: 460px;
+    -fx-alignment: center;
+}
+
+.bot-bar-1 .left {
+    -fx-pref-width: 230px;
+    -fx-alignment: center-left;
+    -fx-padding: 0 0 0 20px;
+}
+
+.bot-bar-1 .right {
+    -fx-pref-width: 230px;
+    -fx-alignment: center-right;
+    -fx-spacing: 5px;
+}

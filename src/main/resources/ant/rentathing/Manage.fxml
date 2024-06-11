@@ -3,11 +3,20 @@
 <?import javafx.scene.layout.VBox?>
 <?import javafx.scene.layout.Pane?>
 <?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.control.Button?>
 
 <Pane xmlns:fx="http://javafx.com/fxml"
       fx:id="rootLayout">
-    <VBox styleClass="Layout">
-        <Label fx:id="account"/>
+    <HBox styleClass="top-bar">
+        <HBox styleClass="left">
+            <Button text="Back" fx:id="handleBackButton" />
+        </HBox>
+        <HBox styleClass="right">
+            <Label fx:id="account" />
+        </HBox>
+    </HBox>
+    <VBox styleClass="layout">
 
     </VBox>
 </Pane>

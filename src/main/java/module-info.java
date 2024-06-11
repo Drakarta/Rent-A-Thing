@@ -13,13 +13,16 @@ module ant.rentathing {
     requires bcrypt;
     requires com.fasterxml.jackson.databind;
     requires java.desktop;
+    requires static lombok;
 
     opens ant.rentathing to javafx.fxml;
-    opens ant.rentathing.Controllers to javafx.fxml;
-    opens ant.rentathing.Classes to com.fasterxml.jackson.databind;
+    opens ant.rentathing.controllers to javafx.fxml;
+    opens ant.rentathing.classes to com.fasterxml.jackson.databind;
     exports ant.rentathing;
-    exports ant.rentathing.Controllers;
-    exports ant.rentathing.Classes;
-    exports ant.rentathing.Classes.Products;
-    opens ant.rentathing.Classes.Products to com.fasterxml.jackson.databind;
+    exports ant.rentathing.controllers;
+    exports ant.rentathing.classes;
+    exports ant.rentathing.classes.products;
+    exports ant.rentathing.classes.singleton;
+    opens ant.rentathing.classes.products to com.fasterxml.jackson.databind;
+    opens ant.rentathing.classes.singleton to com.fasterxml.jackson.databind;
 }

@@ -1,0 +1,14 @@
+[ {
+  "id" : "79061db8-8bb4-4aed-be76-5d29a9cada28",
+  "description" : "a drill123091290412848192084-1284-182040-218",
+  "customer" : null,
+  "employee" : null,
+  "insured" : false,
+  "days" : 1,
+  "brand" : "bose",
+  "type" : "handdrill",
+  "productType" : "Drill",
+  "available" : true,
+  "pricePerDay" : 5.0,
+  "insurancePerDay" : 1.0
+} ]

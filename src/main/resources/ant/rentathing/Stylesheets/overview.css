@@ -1,0 +1,20 @@
+.list-box {
+    -fx-alignment: center;
+    -fx-pref-width: 640px;
+    -fx-pref-height: 480px;
+}
+
+.list-box ScrollPane {
+    -fx-max-width: 420px;
+}
+
+#list {
+    -fx-alignment: top-center;
+    -fx-pref-width: 400px;
+    -fx-pref-height: 340px;
+    -fx-spacing: 5px;
+}
+
+#list Button {
+    -fx-pref-width: 400px;
+}
