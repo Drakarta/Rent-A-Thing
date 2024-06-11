@@ -53,7 +53,11 @@ public class Loader {
         stage.setResizable(false);
         stage.setScene(scene);
         if (exitfunc) {
-            stage.setOnCloseRequest(event -> controller.handleWindowClose());
+            stage.setOnCloseRequest(event -> {
+                if (controller != null) {
+                    controller.handleWindowClose();
+                }
+            });
         }
         stage.show();
     }
