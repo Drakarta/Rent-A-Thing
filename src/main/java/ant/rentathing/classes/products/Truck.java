@@ -15,8 +15,8 @@ public class Truck extends Product {
     private int loadCapacity;
     private int engineCapacity;
 
-    public Truck(String description, boolean availability, String customer, User employee, int loadCapacity, int engineCapacity) throws IOException {
-        super("Truck", description, availability, customer, employee);
+    public Truck(String description, int loadCapacity, int engineCapacity) throws IOException {
+        super("Truck", description);
         this.loadCapacity = loadCapacity;
         this.engineCapacity = engineCapacity;
         ProductList.getInstance().addProduct(this);

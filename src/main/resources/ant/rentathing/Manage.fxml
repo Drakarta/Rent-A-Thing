@@ -1,22 +1,22 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<?import javafx.scene.layout.VBox?>
-<?import javafx.scene.layout.Pane?>
-<?import javafx.scene.control.Label?>
-<?import javafx.scene.layout.HBox?>
-<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
 
-<Pane xmlns:fx="http://javafx.com/fxml"
-      fx:id="rootLayout">
+<Pane fx:id="rootLayout"
+      xmlns="http://javafx.com/javafx/17.0.2-ea"
+      xmlns:fx="http://javafx.com/fxml/1">
     <HBox styleClass="top-bar">
         <HBox styleClass="left">
-            <Button text="Back" fx:id="handleBackButton" />
+            <Button text="Back" onAction="#handleBackButton" />
         </HBox>
         <HBox styleClass="right">
             <Label fx:id="account" />
         </HBox>
     </HBox>
-    <VBox styleClass="layout">
-
+    <HBox styleClass="title-bar">
+        <Label text="Manage" />
+    </HBox>
+    <VBox styleClass="menu-layout" fx:id="productList">
     </VBox>
 </Pane>

@@ -4,36 +4,52 @@ import ant.rentathing.classes.User;
 import ant.rentathing.util.Loader;
 import javafx.fxml.FXML;
 import javafx.scene.control.Alert;
+import javafx.scene.control.Button;
+import javafx.scene.control.Label;
 import javafx.scene.control.TextField;
 import javafx.scene.layout.Pane;
 
 import java.io.IOException;
 
-public class RegisterController extends BaseController {
+public class RegisterController extends AuthController {
     @FXML
     private Pane rootLayout;
+    @FXML
+    private Label title;
     @FXML
     private TextField usernameField;
     @FXML
     private TextField passwordField;
+    @FXML
+    private Button changeWindow;
 
     @Override
     @FXML
     public void initialize() {
-        Loader.loadCss("login-register.css", rootLayout);
+        Loader.loadCss("auth.css", rootLayout);
+        title.setText("Register");
+        changeWindow.setText("Login");
     }
 
-    @FXML
-    public void handleSubmitButton() throws IOException {
-        String username = usernameField.getText();
-        String password = passwordField.getText();
+    @Override
+    public String getUsername() {
+        return usernameField.getText();
+    }
+
+    @Override
+    public String getPassword() {
+        return passwordField.getText();
+    }
+
+    @Override
+    public void authProcess(String username, String password) throws IOException {
         new User(username, password);
         Loader.newAlert(Alert.AlertType.INFORMATION, "Register", "Registration successful", null);
-        Loader.loadFxml(rootLayout, "Login.fxml");
+        Loader.loadFxml(rootLayout, "Auth.fxml");
     }
 
-
-    public void handleLoginButton() {
-        Loader.loadFxml(rootLayout, "Login.fxml");
+    @Override
+    public void handleChangeWindowButton() {
+        Loader.loadFxml(rootLayout, "Auth.fxml", new LoginController());
     }
 }

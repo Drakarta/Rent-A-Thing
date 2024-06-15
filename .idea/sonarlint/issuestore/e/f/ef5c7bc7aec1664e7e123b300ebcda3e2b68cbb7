@@ -1,0 +1,36 @@
+
+Š
+java:S1128"BRemove this unused import 'ant.rentathing.classes.products.Drill'.(Ôö³ƒıÿÿÿÿ8¹âí2J$c39d6652-a9d1-445b-8e15-4c61373f4dc3
+‘
+java:S1128"IRemove this unused import 'ant.rentathing.classes.products.PassengerCar'.(ß¼‹øÿÿÿÿ8¹âí2J$a272d2fb-02d4-4caa-8d3b-6dab3c0e4bd4
+Š
+java:S1128"BRemove this unused import 'ant.rentathing.classes.products.Truck'.(Öª¢¶ùÿÿÿÿ8¹âí2J$16b40c9c-226e-4b9c-98bd-7d2349157a2d
+‰
+java:S1128"ARemove this unused import 'ant.rentathing.util.NumericTextField'.(Ü¦±Üûÿÿÿÿ8‘¹âí2J$5b6df7cc-be5d-4986-b07b-ed953f5edae2
+u
+java:S1128	"-Remove this unused import 'javafx.fxml.FXML'.(ÃÚ¢„şÿÿÿÿ8‘¹âí2J$a994eee8-8ee0-4a8f-80be-b9a55711eda0
+q
+java:S1128
+".Remove this unused import 'javafx.scene.Node'.(ÑÖ¬ï8‘¹âí2J$41a8a0b7-e337-4d55-bba2-5a6c42ab12c9
+€
+java:S1128"8Remove this unused import 'javafx.scene.control.Button'.(Ë Í‹øÿÿÿÿ8‘¹âí2J$aa9c68ad-b197-46eb-adfa-0814209cf5e8
+‚
+java:S1128":Remove this unused import 'javafx.scene.control.CheckBox'.(¸şıÿÿÿÿ8‘¹âí2J$de273f4b-d750-4f55-ba59-8e2473c21a13
+~
+java:S1128";Remove this unused import 'javafx.scene.control.TextField'.(¨¢¤¶8‘¹âí2J$b1311e03-6633-4046-997f-7d185d42f24b
+
+java:S1128"9Remove this unused import 'javafx.scene.layout.GridPane'.(ÖÀ¹¯ûÿÿÿÿ8‘¹âí2J$84e1f010-bc29-439f-9070-25c9c0825e9f
+x
+java:S1128"0Remove this unused import 'java.io.IOException'.(ªº»Úıÿÿÿÿ8‘¹âí2J$fedc82f0-86e9-427c-9d4c-bc2d1678fda6
+s
+java:S1068"+Remove this unused "product" private field.(„¼”Úùÿÿÿÿ8‘¹âí2J$5b016e2f-a18b-416c-bd08-1da90022a012
+}
+java:S1128":Remove this unused import 'ant.rentathing.util.GridField'.(‡ÂÈÇ8¹âí2J$7d52e419-e590-4346-903d-2413be27cda9
+v
+java:S1068".Remove this unused "controller" private field.(Èş„Àÿÿÿÿÿ8Ñ£Ôí2J$2411d28b-8026-4979-b73b-fad07e0f4acc
+q
+java:S1068".Remove this unused "detailList" private field.(åş8’¹âí2J$992f7ce2-a3c5-43c3-a253-f27eaaa5e3f6
+v
+java:S1068".Remove this unused "totalPrice" private field.(×½°†üÿÿÿÿ8’¹âí2J$85716f98-e470-45e8-85e9-63c1d92b92c9
+r
+java:S1068"/Remove this unused "botBarRight" private field.(ı®Œô8’¹âí2J$6e54559e-4312-42fc-99c4-888b971df5d9

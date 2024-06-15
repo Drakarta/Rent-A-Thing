@@ -16,8 +16,8 @@ public class PassengerCar extends Product {
     private double weight;
     private int engineCapacity;
 
-    public PassengerCar(String description, boolean availability, String customer, User employee, String brand, double weight, int engineCapacity) throws IOException {
-        super("PassengerCar", description, availability, customer, employee);
+    public PassengerCar(String description, String brand, double weight, int engineCapacity) throws IOException {
+        super("PassengerCar", description);
         this.brand = brand;
         this.weight = weight;
         this.engineCapacity = engineCapacity;

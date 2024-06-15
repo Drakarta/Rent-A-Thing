@@ -34,7 +34,8 @@ public class MenuController extends BaseController {
     }
 
     public void handleManageButton() {
-        System.out.println(user.getUsername());
+        ManageController manageController = new ManageController(user);
+        Loader.loadFxml(rootLayout, "Manage.fxml", manageController);
     }
 
     public void handleLogOutButton(ActionEvent event) {

@@ -2,4 +2,8 @@
   "id" : "79db1b4a-e158-4d42-9ca4-3f49d24069eb",
   "username" : "test",
   "password" : "$2a$12$fadtxOY/0SlDIQsz/QTsROq2lYf7vwWvyZ/ujSdF/CasjVCelyirO"
+}, {
+  "id" : "257bd916-9545-4f8d-8db0-8b506e236d26",
+  "username" : "ant",
+  "password" : "$2a$12$PMBD4bGilGrL3YGQj9XTQOnzxFGYjHUTnLphiY3Wf2N3zvi4uBVvy"
 } ]

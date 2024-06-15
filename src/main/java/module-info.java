@@ -14,6 +14,7 @@ module ant.rentathing {
     requires com.fasterxml.jackson.databind;
     requires java.desktop;
     requires static lombok;
+    requires reflections;
 
     opens ant.rentathing to javafx.fxml;
     opens ant.rentathing.controllers to javafx.fxml;
@@ -25,4 +26,6 @@ module ant.rentathing {
     exports ant.rentathing.classes.singleton;
     opens ant.rentathing.classes.products to com.fasterxml.jackson.databind;
     opens ant.rentathing.classes.singleton to com.fasterxml.jackson.databind;
+    exports ant.rentathing.controllers.displayHelper;
+    opens ant.rentathing.controllers.displayHelper to javafx.fxml;
 }

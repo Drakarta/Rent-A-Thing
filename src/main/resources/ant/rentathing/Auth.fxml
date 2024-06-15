@@ -8,13 +8,12 @@
 
 <?import javafx.scene.control.PasswordField?>
 <Pane xmlns:fx="http://javafx.com/fxml"
-      fx:id="rootLayout"
-      fx:controller="ant.rentathing.controllers.LoginController">
-    <VBox styleClass="login-register-layout">
-        <Label text="Login"/>
+      fx:id="rootLayout">
+    <VBox styleClass="auth-layout">
+        <Label fx:id="title" />
         <TextField fx:id="usernameField" promptText="Username"/>
         <PasswordField fx:id="passwordField" promptText="Password"/>
         <Button text="Submit" onAction="#handleSubmitButton" />
-        <Button text="Register" onAction="#handleRegisterButton" />
+        <Button fx:id="changeWindow" onAction="#handleChangeWindowButton" />
     </VBox>
 </Pane>

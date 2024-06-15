@@ -37,11 +37,11 @@ public class Loader {
         }
     }
 
-    public static void newWindow(String fxml, String title, int width, int height, boolean exitfunc) throws IOException {
-        newWindow(fxml, null, title, width, height, exitfunc);
+    public static void newWindow(String fxml, String title, int width, int height, boolean exitFunction) throws IOException {
+        newWindow(fxml, null, title, width, height, exitFunction);
     }
 
-    public static void newWindow(String fxml, BaseController controller, String title, int width, int height, boolean exitfunc) throws IOException {
+    public static void newWindow(String fxml, BaseController controller, String title, int width, int height, boolean exitFunction) throws IOException {
         FXMLLoader loader = new FXMLLoader();
         loader.setLocation(Loader.class.getResource(BASE_RESOURCE_PATH + fxml));
         if (controller != null) {
@@ -52,7 +52,7 @@ public class Loader {
         stage.setTitle(title);
         stage.setResizable(false);
         stage.setScene(scene);
-        if (exitfunc) {
+        if (exitFunction) {
             stage.setOnCloseRequest(event -> {
                 if (controller != null) {
                     controller.handleWindowClose();

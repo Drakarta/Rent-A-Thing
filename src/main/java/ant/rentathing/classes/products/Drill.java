@@ -15,8 +15,8 @@ public class Drill extends Product {
     private String brand;
     private String type;
 
-    public Drill(String description, boolean availability, String customer, User employee, String brand, String type) throws IOException {
-        super("Drill", description, availability, customer, employee);
+    public Drill(String description, String brand, String type) throws IOException {
+        super("Drill", description);
         this.brand = brand;
         this.type = type;
         ProductList.getInstance().addProduct(this);

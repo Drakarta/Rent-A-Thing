@@ -6,7 +6,8 @@ import java.io.IOException;
 
 public abstract class BaseController {
     @FXML
-    public void initialize() throws IOException {}
+    protected void initialize() throws IOException {}
 
-    public void handleWindowClose() {}
+    public void handleWindowClose() {
+    }
 }

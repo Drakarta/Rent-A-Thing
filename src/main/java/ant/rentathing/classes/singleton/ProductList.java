@@ -17,7 +17,7 @@ public class ProductList extends SingletonList<Product> {
         super(PRODUCTS_JSON, new TypeReference<>() {});
     }
 
-    public static synchronized ProductList getInstance() throws IOException {
+    public static ProductList getInstance() throws IOException {
         if (instance == null) {
             instance = new ProductList();
         }

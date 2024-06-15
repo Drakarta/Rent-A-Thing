@@ -34,13 +34,13 @@ public abstract class Product {
     boolean insured;
     int days;
 
-    protected Product(String productType, String description, boolean availability, String customer, User employee){
+    protected Product(String productType, String description){
         this.id = UUID.randomUUID();
         this.productType = productType;
         this.description = description;
-        this.available = availability;
-        this.customer = customer;
-        this.employee = employee;
+        this.available = true;
+        this.customer = null;
+        this.employee = null;
         this.pricePerDay = calculatePricePerDay();
         this.insurancePerDay = calculateInsurancePerDay();
         this.insured = false;
@@ -72,9 +72,9 @@ public abstract class Product {
     protected abstract double calculateInsurancePerDay();
 
     public double calculateTotalPrice(int days, boolean insurance) {
-        double totalPrice = this.pricePerDay * days;
+        double totalPrice = calculatePricePerDay() * days;
         if (insurance) {
-            totalPrice += this.insurancePerDay * days;
+            totalPrice += calculateInsurancePerDay() * days;
         }
         return totalPrice;
     }
