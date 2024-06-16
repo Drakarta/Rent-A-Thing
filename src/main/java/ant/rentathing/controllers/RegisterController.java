@@ -43,9 +43,13 @@ public class RegisterController extends AuthController {
 
     @Override
     public void authProcess(String username, String password) throws IOException {
+        if (username.isEmpty() && password.isEmpty()) {
+            Loader.newAlert(Alert.AlertType.ERROR, "Register", "Invalid fields", null);
+            return;
+        }
         new User(username, password);
         Loader.newAlert(Alert.AlertType.INFORMATION, "Register", "Registration successful", null);
-        Loader.loadFxml(rootLayout, "Auth.fxml");
+        Loader.loadFxml(rootLayout, "Auth.fxml", new LoginController());
     }
 
     @Override

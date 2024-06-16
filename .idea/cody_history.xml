@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChatHistory">
+    <accountData>
+      <list>
+        <AccountData>
+          <accountId value="VXNlcjo0NjU3MDg=" />
+          <chats>
+            <list>
+              <chat>
+                <internalId value="65244132-f486-4997-9f66-8e03ab6a09c4" />
+                <llm>
+                  <llm>
+                    <model value="anthropic/claude-3-sonnet-20240229" />
+                    <provider value="Anthropic" />
+                    <title value="Claude 3 Sonnet" />
+                  </llm>
+                </llm>
+                <messages>
+                  <list>
+                    <message>
+                      <speaker value="HUMAN" />
+                      <text value="Hello" />
+                    </message>
+                    <message>
+                      <speaker value="ASSISTANT" />
+                      <text value="Hello!" />
+                    </message>
+                    <message>
+                      <speaker value="HUMAN" />
+                      <text value="I need to make JUnit Tests&#10;&#10;Condition Coverage&#10;Decision Coverage&#10;Condition/Decicision Coverage&#10;MODIFIED CONDITION/DECISION COVERAGE&#10;MULTIPLE CONDITION COVERAGE&#10;EQUIVALENTIEKLASSEN EN RANDWAARDEN&#10;PAIRWISE TESTING" />
+                    </message>
+                    <message>
+                      <speaker value="ASSISTANT" />
+                      <text value="Sure, I can help you with creating JUnit tests for different types of coverage criteria. Here's an overview of how you can approach each type of coverage:&#10;&#10;1. **Condition Coverage**:&#10;   - Write tests to ensure that each boolean condition in the code (e.g., `if` statements, `while` loops) evaluates to both true and false at least once.&#10;   - For example, if you have an `if` statement with a single condition `(x &gt; 10)`, you should have one test case where `x` is greater than 10 and another test case where `x` is less than or equal to 10.&#10;&#10;2. **Decision Coverage**:&#10;   - Write tests to ensure that every decision point (e.g., `if-else` statements, `switch` statements) is evaluated " />
+                    </message>
+                  </list>
+                </messages>
+                <updatedAt value="2024-06-16T21:39:48.519744" />
+              </chat>
+              <chat>
+                <internalId value="bae45844-3412-4def-bf4e-c3a50c472699" />
+                <llm>
+                  <llm>
+                    <model value="anthropic/claude-3-sonnet-20240229" />
+                    <provider value="Anthropic" />
+                    <title value="Claude 3 Sonnet" />
+                  </llm>
+                </llm>
+              </chat>
+            </list>
+          </chats>
+          <defaultLlm>
+            <llm>
+              <model value="anthropic/claude-3-sonnet-20240229" />
+              <provider value="Anthropic" />
+              <title value="Claude 3 Sonnet" />
+            </llm>
+          </defaultLlm>
+        </AccountData>
+      </list>
+    </accountData>
+  </component>
+</project>

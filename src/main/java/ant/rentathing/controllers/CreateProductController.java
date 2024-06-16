@@ -14,10 +14,12 @@ import javafx.scene.Node;
 import javafx.scene.control.*;
 import javafx.scene.layout.*;
 import javafx.stage.Stage;
+import lombok.Getter;
 import lombok.Setter;
 
 import java.io.IOException;
 
+@Getter
 @Setter
 public class CreateProductController extends BaseController {
     private User user;

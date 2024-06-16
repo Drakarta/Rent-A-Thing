@@ -1,5 +1,5 @@
 
-u	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(ˆıÅ.8úÇˆî2
-	java:S112)"FDefine and throw a dedicated exception instead of using a generic one.(Ò‚Òéüÿÿÿÿ8•©…î2J$212d53d7-0a18-4c35-a548-5c9e9891240f
+›	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(ˆıÅ.8úÇˆî2J$83686137-2165-4c37-8eff-b005b2e437cf
+	java:S112)"FDefine and throw a dedicated exception instead of using a generic one.(Ò‚Òéüÿÿÿÿ8•©…î2J$e8cad947-1565-4143-9a9b-61a082a4fce8
 k
-java:S1068"(Remove this unused "user" private field.(õ©¯†8©…î2J$38a6b3b4-5b3d-4129-bff7-fa2166436868
+java:S1068"(Remove this unused "user" private field.(õ©¯†8©…î2J$7344efce-eecd-4f85-9cfc-a96713bc3dd6

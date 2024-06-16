@@ -16,16 +16,17 @@ module ant.rentathing {
     requires static lombok;
     requires reflections;
 
-    opens ant.rentathing to javafx.fxml;
-    opens ant.rentathing.controllers to javafx.fxml;
-    opens ant.rentathing.classes to com.fasterxml.jackson.databind;
+    opens ant.rentathing to javafx.fxml, org.testfx;
+    opens ant.rentathing.controllers to javafx.fxml, org.testfx;
+    opens ant.rentathing.classes.products to com.fasterxml.jackson.databind, org.testfx;
+    opens ant.rentathing.classes.singleton to com.fasterxml.jackson.databind, org.testfx;
+    opens ant.rentathing.controllers.displayHelper to javafx.fxml, org.testfx;
+
     exports ant.rentathing;
     exports ant.rentathing.controllers;
     exports ant.rentathing.classes;
     exports ant.rentathing.classes.products;
     exports ant.rentathing.classes.singleton;
-    opens ant.rentathing.classes.products to com.fasterxml.jackson.databind;
-    opens ant.rentathing.classes.singleton to com.fasterxml.jackson.databind;
     exports ant.rentathing.controllers.displayHelper;
-    opens ant.rentathing.controllers.displayHelper to javafx.fxml;
+
 }

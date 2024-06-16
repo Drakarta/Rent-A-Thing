@@ -38,12 +38,12 @@ public class Truck extends Product {
     }
 
     @Override
-    protected double calculatePricePerDay() {
+    public double calculatePricePerDay() {
         return 0.10 * loadCapacity;
     }
 
     @Override
-    protected double calculateInsurancePerDay() {
+    public double calculateInsurancePerDay() {
         return 0.01 * engineCapacity;
     }
 }

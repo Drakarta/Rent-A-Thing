@@ -1,4 +1,5 @@
 
-›	java:S1351"YReduce the total number of break and continue statements in this loop to use at most one.(üí‚Œ8º…øÇ2J$5acfcd0b-e7ea-4aca-bd06-af7b6f3b9f6a
+›	java:S1351"YReduce the total number of break and continue statements in this loop to use at most one.(üí‚Œ8Êç¥—‚2J$362fd8b7-17c7-4b04-953c-42c7eaf4c225
 ‰
-java:S1192!"FDefine a constant instead of duplicating this literal "Login" 3 times.(§ó¯ø8„¦úÇ2J$a8f34c4e-8808-4707-aa1e-6398c12e28c1
+java:S1192!"FDefine a constant instead of duplicating this literal "Login" 3 times.(§ó¯ø8Êç¥—‚2J$3fd22538-fa3b-4e0d-8279-4285b7043207
+r	java:S106;"+Replace this use of System.out by a logger.(º•‚üøÿÿÿÿ8³»Ä—‚2J$515a0e0c-fb52-4b8b-b475-fe9b13652f6d

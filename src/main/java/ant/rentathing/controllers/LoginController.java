@@ -56,10 +56,12 @@ public class LoginController extends AuthController {
                 MenuController controller = new MenuController(user);
                 Session.getInstance().add(user);
                 Loader.newWindow("Menu.fxml", controller, "Rent-A-Thing", 640, 480, true);
+                System.out.println(Session.getInstance().activeUsers);
                 return;
             }
         }
         Loader.newAlert(Alert.AlertType.ERROR, "Login", "Invalid username or password", null);
+
     }
 
     @Override

@@ -8,9 +8,9 @@ import java.util.ArrayList;
 @Getter
 public class Session {
     private static Session instance;
-    private final ArrayList<User> activeUsers;
+    public final ArrayList<User> activeUsers;
 
-    private Session() {
+    public Session() {
         activeUsers = new ArrayList<>();
     }
 

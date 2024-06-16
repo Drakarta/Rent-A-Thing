@@ -42,12 +42,12 @@ public class PassengerCar extends Product {
     }
 
     @Override
-    protected double calculatePricePerDay() {
+    public double calculatePricePerDay() {
         return 50;
     }
 
     @Override
-    protected double calculateInsurancePerDay() {
+    public double calculateInsurancePerDay() {
         return 0.01 * engineCapacity;
     }
 }
